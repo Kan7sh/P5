@@ -1,5 +1,7 @@
 import { Playfair_Display, Inter, JetBrains_Mono } from "next/font/google";
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 
 import "./globals.css";
 
@@ -25,6 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body>{children}</body>
+            <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
     </html>
   );
 }
