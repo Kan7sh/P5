@@ -1,7 +1,7 @@
 // All panel text lives here. Everything below is PLACEHOLDER copy — replace with your real details.
 export const LINKS = {
   allProjects: "https://projects.kanishc.in/",
-  resume: "https://drive.google.com/file/d/1oK0atZ7ir3R84dw4jEaqWoaAoH5lLC46", 
+  resume: "https://drive.google.com/file/d/1IhYhG7YA9STiYo1CH_t4JYP4DW6Rb_mh/view?usp=sharing", 
 };
 
 export const PROJECTS = [
